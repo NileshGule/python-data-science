@@ -20,6 +20,22 @@ brew cask install anaconda2
 
 ```bash
 
-/usr/local/anaconda2
+/usr/local/anaconda2/bin
+
+```
+
+## Restart iTerm2 & verify packages installed as part of Anaconda installation
+
+```bash
+
+conda list
+
+```
+
+## Jupyter Notebook
+
+```bash
+
+jupyter notebook
 
 ```
