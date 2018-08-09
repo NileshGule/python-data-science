@@ -39,3 +39,35 @@ conda list
 jupyter notebook
 
 ```
+
+## Install `cookiecutter` project template using pip
+
+```bash
+
+sudo pip install cookiecutter
+
+```
+
+## Alternate approach using conda install
+
+```bash
+
+conda install cookiecutter
+
+```
+
+### Add `conda-forge` channel to overcome the `PackageNotFound` error
+
+```bash
+
+conda install -c conda-forge cookiecutter
+
+```
+
+### Create data science project named `titanic` using the cookiecutter
+
+```bash
+
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+
+```
